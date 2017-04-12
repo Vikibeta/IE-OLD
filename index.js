@@ -129,6 +129,9 @@ var _html = '<!DOCTYPE html>'+
        }else if(window.navigator.userAgent.indexOf('Edge ') !== -1 || !!navigator.userAgent.match(/Trident\/7.0/)){
          11 <= versions && document.write(_html)
        }
+       //用于测试页面
+       versions == 'test' && document.write(_html)
+
   }
 
   function isIEAndLTEVersion(versions){
