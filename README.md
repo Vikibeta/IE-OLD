@@ -24,6 +24,51 @@ To replace the browser's small script, display the following:
 
 
 
+## Install
+
+```
+$ npm install --save ieold
+```
+
+## Usage Method 1
+
+
+```js
+//=> react
+
+
+
+
+
+```
+
+
+## Usage Method 2
+
+
+```js
+//=> 普通引用 common including
+<script type="text/javascript" src="index.src.js"></script>
+
+
+
+```
+
+
+
+
+
+
+
+
 ##merit 优点
 
 1.使用方便，只需加几行 IE-only 的条件注释代码，对现代浏览器不会产生任何影响
+1.Easy to use, just need to add a few lines of IE-only conditional comment code, will not have any impact on modern browsers
+
+2.大小：整站才57Kb（包含图片）
+2.Size: 57Kb station (including images)
+
+
+3.醒目，目前多数的网站做法只是在顶部很窄的位置提示一句话，达不到鼓励用户更换浏览器的目的。而本身是否完全放弃 IE 也是网站自己的选择。此脚本明显地告知用户，之后遇到样式和功能不正常是因为你已经落伍了。
+3.Eye-catching, at present, most of the site practice is only a very narrow position on the tip of a word, can not achieve the purpose of encouraging users to replace the browser. And whether or not to completely abandon the IE site is their own choice. This script clearly informs the user that the style and function are not normal because you are out of date.
