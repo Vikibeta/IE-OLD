@@ -35,8 +35,13 @@ $ npm install --save ieold
 
 ```js
 //=> react
+//
+import ieold from 'ieold'
 
-
+// @param version
+// version <=  (6-11)
+//
+ieold(9)
 
 
 
@@ -44,6 +49,21 @@ $ npm install --save ieold
 
 
 ## Usage Method 2
+
+
+```js
+//=> react
+//
+const ieold = require('ieold');
+
+ieold(9)
+
+
+
+```
+
+
+## Usage Method 3
 
 
 ```js
@@ -65,6 +85,7 @@ $ npm install --save ieold
 
 1.使用方便，只需加几行 IE-only 的条件注释代码，对现代浏览器不会产生任何影响
 1.Easy to use, just need to add a few lines of IE-only conditional comment code, will not have any impact on modern browsers
+
 
 2.大小：整站才57Kb（包含图片）
 2.Size: 57Kb station (including images)
