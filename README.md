@@ -52,7 +52,7 @@ ieold(9)
 
 
 ```js
-//=> react
+//=> common
 //
 const ieold = require('ieold');
 
@@ -70,7 +70,10 @@ ieold(9)
 //=> 普通引用 common including
 <script type="text/javascript" src="index.src.js"></script>
 
-
+//IE 10 以上
+if (navigator.userAgent.match(/Trident\/6/)) {
+    document.write('<script src="index.src.js"><'+'/script>');
+}
 
 ```
 
