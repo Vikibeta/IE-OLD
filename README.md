@@ -1,6 +1,14 @@
-#IE-FBI-WARNing
+# ieold  [![Build Status](https://travis-ci.org/sindresorhus/query-string.svg?branch=master)](https://github.com/976500133/IE-FBI-WARNing)
 
 _____
+
+---
+
+<p align="center"><b>🔥 IEOLD?</b><br>In the process of the development of the website, whether it is graceful degradation and progressive enhancement, the total 1 IE is not suitable for you, but for better user experience, you definitely need a face I don't compatible browser script that has been submitted to the site of strong and friendly interaction, so you should be used to
+.</p>
+
+---
+
 
 在开发网站的过程中，不管是优雅降级和渐进增强，总有1款IE 不适合你，然而为了更好的用户体验，你肯定需要一款面对我不兼容浏览器脚本的提示，已提交网站的健硕和友好的交互，由此你应该用的到
 IE-FBI-WARNing
