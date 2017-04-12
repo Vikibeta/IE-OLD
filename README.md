@@ -1,6 +1,5 @@
 # ieold  [![Build Status](https://travis-ci.org/sindresorhus/query-string.svg?branch=master)](https://github.com/976500133/IE-FBI-WARNing)
 
-_____
 
 
 <p align="center"><b>🔥 IEOLD?</b><br>In the process of the development of the website, whether it is graceful degradation and progressive enhancement, the total 1 IE is not suitable for you, but for better user experience, you definitely need a face I don't compatible browser script that has been submitted to the site of strong and friendly interaction, so you should be used to
