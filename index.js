@@ -129,22 +129,22 @@ var _html = '<!DOCTYPE html>'+
        }else if(window.navigator.userAgent.indexOf('Edge ') !== -1 || !!navigator.userAgent.match(/Trident\/7.0/)){
          11 <= versions && document.write(_html)
        }
-       //用于测试页面
+       //用于测试页面 test
        versions == 'test' && document.write(_html)
 
   }
 
-  function isIEAndLTEVersion(versions){
+  function IEOLd(versions){
     checkIEVersion(versions)
   }
 
 
 if (typeof module !== 'undefined' && typeof exports === 'object') {
-  module.exports = isIEAndLTEVersion;
+  module.exports = IEOLd;
 } else if (typeof define === 'function' && define.amd) {
-  define(function() { return isIEAndLTEVersion; });
+  define(function() { return IEOLd; });
 } else {
-  this.isIEAndLTEVersion = isIEAndLTEVersion;
+  this.IEOLd = IEOLd;
 }
 
 
