@@ -1,5 +1,5 @@
 {
-  "name": "IE-FBI-WARNing",
+  "name": "ieold",
   "version": "1.0.0",
   "description": "IE warning alert 警告框 过时 Obsolete , ie6, ie7,ie8,ie9,ie10,ie11 ",
   "main": "index.js",
