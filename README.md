@@ -77,50 +77,6 @@ ieold(9)
 ```
 
 
-###Core code
-
-```js
-
-function checkIEVersion(versions){
-  //判断是否为IE
-  if (window.ActiveXObject){
-       var rv = navigator.userAgent.indexOf("rv:11.0");
-       var IEVersion=0;
-       if(navigator.appVersion.match(/7./i)=="7."){
-         IEVersion=7;
-       }else if(navigator.appVersion.match(/8./i)=="8."){
-         IEVersion=8;
-       }else if(navigator.appVersion.match(/9./i)=="9."){
-         IEVersion=9;
-       }else if(navigator.appVersion.match(/6./i)=="6."){
-        IEVersion=6;
-       }
-       IEVersion <= versions && document.write(_html)
-     }else if(navigator.appVersion.indexOf("MSIE 10") != -1){
-       10 <= versions && document.write(_html)
-     }else if(window.navigator.userAgent.indexOf('Edge ') !== -1 || !!navigator.userAgent.match(/Trident\/7.0/)){
-       11 <= versions && document.write(_html)
-     }
-     //用于测试页面 test
-     versions == 'test' && document.write(_html)
-
-}
-
-function IEOLd(versions){
-  checkIEVersion(versions)
-}
-
-
-if (typeof module !== 'undefined' && typeof exports === 'object') {
-module.exports = IEOLd;
-} else if (typeof define === 'function' && define.amd) {
-define(function() { return IEOLd; });
-} else {
-this.IEOLd = IEOLd;
-}
-
-```
-
 
 
 
