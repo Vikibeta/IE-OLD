@@ -37,7 +37,8 @@ $ npm install --save ieold
 ## Usage Method 1
 
 ```js
-//=> react 不支持这种方法， IE8 下进不去
+//=> 这样使用的方法在react不兼容ie8 以下是没用的
+//This method is not used in the react is not compatible with the following IE8
 //
 import ieold from 'ieold'
 // @param version
