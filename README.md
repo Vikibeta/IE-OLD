@@ -37,7 +37,7 @@ $ npm install --save ieold
 ## Usage Method 1
 
 ```js
-//=> react
+//=> react 不支持这种方法， IE8 下进不去
 //
 import ieold from 'ieold'
 // @param version
@@ -46,6 +46,7 @@ import ieold from 'ieold'
 ieold(9)
 
 ```
+
 
 
 ## Usage Method 2
@@ -63,8 +64,11 @@ ieold(9)
 ## Usage Method 3
 
 ```js
+
 //=> 普通引用 common including
-<script type="text/javascript" src="index.src.js"></script>
+<!--[if lte IE 9]>
+  <script type="text/javascript" src="./index.src.js"></script>
+<![endif]-->
 
 //IE 10 以上
 <script type="text/javascript" >
