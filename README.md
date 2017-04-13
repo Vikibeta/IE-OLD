@@ -89,9 +89,9 @@ http://www.jianshu.com/p/811d56f5ddd8
 
 
 
-2.大小：整站才57Kb（包含图片）
+2.大小：整站才45Kb（包含图片）
 
-2.Size: 57Kb station (including images)
+2.Size: 45Kb station (including images)
 
 
 
